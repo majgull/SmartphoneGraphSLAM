@@ -2,7 +2,7 @@
 
 This repo contains the matlab source codes of the Robust Graph-SLAM implementation. There are many robust method but this one is inspired by  a method called [Switchable Constraints](https://www.tu-chemnitz.de/etit/proaut/publications/IROS12-switchableConstraints.pdf) developed by Sünderhauf, N.
 
-For further details of the application, I refer readers to the [report](report/report.pdf).
+For further details of the application, see the [report](report/report.tex) (LaTeX source).
 
 ## Abstract
 
@@ -83,3 +83,6 @@ Drifted measured walking path results.
 ### Long Walking Path
 
 ![alt text](fig/long_straight_optimized_path.jpg)
+## How to run
+
+Open the repository in MATLAB and run `src/main.m`. The recorded smartphone logs (CSV and JSON) that the figures above were produced from are included under `src/database/`.
